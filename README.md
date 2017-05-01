@@ -1,0 +1,1 @@
+# Boilerplate for creating npm packages with ES6 

@@ -1,0 +1,27 @@
+{
+  "name": "npm-package-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating npm packages with ES6",
+  "keywords": [
+    "npm-package",
+    "package",
+    "boilerplate",
+    "es6"
+  ],
+  "license": "MIT",
+  "author": "Eugene Nikitin",
+  "homepage": "http://github.com/eunikitin/npm-package-es6-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eunikitin/npm-package-es6-boilerplate.git"
+  },
+  "bugs": {
+    "mail": "eu.nikitin@gmail.com",
+    "url": "http://github.com/eunikitin/npm-package-es6-boilerplate/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
