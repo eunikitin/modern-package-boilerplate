@@ -31,6 +31,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
     "webpack": "^2.4.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "webpack-uglify-js-plugin": "^1.1.9"
   }
 }
