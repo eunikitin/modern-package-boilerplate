@@ -19,8 +19,9 @@
     "mail": "eu.nikitin@gmail.com",
     "url": "http://github.com/eunikitin/npm-package-es6-boilerplate/issues"
   },
-  "main": "lib/index.js",
+  "main": "lib/index.min.js",
   "scripts": {
+    "dev": "node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.build.development.js"
   },
   "dependencies": {},
   "devDependencies": {
