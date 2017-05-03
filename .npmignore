@@ -1,10 +1,26 @@
+# IDE specific
 .idea
+
+# Logs
+npm-debug.log*
+
+# Dependencies
 node_modules
-npm-debug.log
-yarn.lock
+
+# Coverage
+coverage
+
+# Cache
 .nyc_output
+yarn.lock
+.tmp
+
+# Sources, tests and builder files
 builder
 src
 test
+webpack.config.base.js
+webpack.config.build.base.js
 webpack.config.development.js
+webpack.config.production.js
 webpack.config.test.babel.js
