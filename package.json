@@ -24,6 +24,14 @@
     "dev": "node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.build.development.js",
     "build": "node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.build.production.js",
     "test": "mocha-webpack --webpack-config webpack.config.test.js \"test/runner.js\"",
+    "cover": "nyc --reporter=lcov --reporter=text npm run test"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.js"
+    ],
+    "instrument": false,
+    "sourceMap": false
   },
   "dependencies": {},
   "devDependencies": {
@@ -34,8 +42,10 @@
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
     "fs-file-tree": "^1.0.4",
+    "istanbul-instrumenter-loader": "^2.0.0",
     "mocha": "^3.3.0",
     "mocha-webpack": "^0.7.0",
+    "nyc": "^10.3.0",
     "sinon": "^2.1.0",
     "webpack": "^2.4.1",
     "webpack-merge": "^4.1.0",

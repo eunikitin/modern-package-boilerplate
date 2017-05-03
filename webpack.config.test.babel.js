@@ -1,3 +1,4 @@
+import path         from 'path';
 import merge        from 'webpack-merge';
 import nodeExternals from 'webpack-node-externals';
 
@@ -12,6 +13,16 @@ export default merge(
         output: {
             devtoolModuleFilenameTemplate:         '[absolute-resource-path]',
             devtoolFallbackModuleFilenameTemplate: '[absolute-resource-path]?[hash]'
+        },
+
+        module: {
+            rules: [
+                {
+                    test: /\.(js|ts)/,
+                    include: path.resolve('src'), // instrument only testing sources with Istanbul, after ts-loader runs
+                    loader: 'istanbul-instrumenter-loader'
+                },
+            ]
         },
 
         externals: [nodeExternals()],
