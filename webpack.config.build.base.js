@@ -5,7 +5,7 @@ import packageJson  from './package.json'
 
 import baseConfig   from './webpack.config.base';
 import resolveRules from './builder/resolve';
-import es6Loader    from './builder/loaders/es6';
+import babelLoader  from './builder/loaders/babel';
 
 
 export default merge(
@@ -21,5 +21,5 @@ export default merge(
         },
     },
     resolveRules,
-    es6Loader
+    babelLoader
 );
