@@ -9,7 +9,13 @@ import es6Loader    from './builder/loaders/es6';
 export default merge(
     baseConfig,
     {
+        output: {
+            devtoolModuleFilenameTemplate:         '[absolute-resource-path]',
+            devtoolFallbackModuleFilenameTemplate: '[absolute-resource-path]?[hash]'
+        },
+
         externals: [nodeExternals()],
+        devtool: "inline-cheap-module-source-map"
     },
     resolveRules,
     es6Loader
