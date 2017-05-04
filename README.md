@@ -17,5 +17,7 @@ Build your library in development mode
 Build your library in production mode
 #### `npm run test`
 Run tests
+#### `npm run test:watch`
+Run tests in watch mode
 #### `npm run cover`
 Cover your code (Work with ES6)
