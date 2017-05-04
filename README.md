@@ -11,6 +11,8 @@
 2. Update package.json with your information
 
 ## Usage
+#### `npm run clean`
+Delete all cache and output files
 #### `npm run dev`
 Build your library in development mode
 #### `npm run build`
