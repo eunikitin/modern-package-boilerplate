@@ -25,3 +25,18 @@ Run tests in watch mode
 #### `npm run cover`
 Cover your code (Work with ES6)
 
+### Webpack aliases
+If you are as tired as me to write '../../../' in the
+require statements, you can use
+[alias feature provided by webpack](https://webpack.js.org/configuration/resolve/#resolve-alias).
+Here is an example of aliases, built in this boilerplate
+by default (`builder/resolve.js`):
+```js
+resolve: {
+    alias: {
+        Src: path.resolve(process.cwd() + '/src'),
+        Lib: path.resolve(process.cwd() + '/lib')
+    }
+}
+```
+Feel free to add your custom aliases, they are awesome.
