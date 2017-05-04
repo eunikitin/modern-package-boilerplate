@@ -11,6 +11,7 @@
 2. Update package.json with your information
 
 ## Usage
+### Commands
 #### `npm run clean`
 Delete all cache and output files
 #### `npm run dev`
@@ -23,3 +24,4 @@ Run tests
 Run tests in watch mode
 #### `npm run cover`
 Cover your code (Work with ES6)
+
