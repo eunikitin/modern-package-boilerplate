@@ -11,11 +11,11 @@
 2. Update package.json with your information
 
 ## Usage
-### `npm run dev`
+#### `npm run dev`
 Build your library in development mode
-### `npm run build`
+#### `npm run build`
 Build your library in production mode
-### `npm run test`
+#### `npm run test`
 Run tests
-### `npm run cover`
+#### `npm run cover`
 Cover your code (Work with ES6)
