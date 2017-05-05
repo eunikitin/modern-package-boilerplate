@@ -31,6 +31,9 @@ Run tests
 Run tests in watch mode
 #### `npm run cover`
 Cover your code (Work with ES6)
+#### `npm run coveralls`
+Sends coverage details to [coveralls.io](https://coveralls.io).
+Used in .travis.yml and should not be used manually.
 
 ### Lint
 This boilerplate uses
