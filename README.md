@@ -34,6 +34,8 @@ Cover your code (Work with ES6)
 #### `npm run coveralls`
 Sends coverage details to [coveralls.io](https://coveralls.io).
 Used in .travis.yml and should not be used manually.
+#### `npm run lint`
+Check your code for errors and code styles
 
 ### Lint
 This boilerplate uses
