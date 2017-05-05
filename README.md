@@ -1,4 +1,5 @@
 # Boilerplate for creating npm packages with ES6 
+[![Build Status](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate.svg?branch=master)](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate)
 [![dependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate)
 [![devDependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/dev-status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate?type=dev)
 
