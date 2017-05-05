@@ -9,6 +9,7 @@
 * Test with [mocha](https://mochajs.org/), [chai](http://chaijs.com/) and [sinon](http://sinonjs.org/)
 * Cover with [istanbul](https://github.com/gotwarlost/istanbul)
 * Lint with [eslint](http://eslint.org/) ([air-bnb config](https://github.com/airbnb/javascript))
+* CI with [travis-ci.org](https://travis-ci.org/)
 
 ## Installation
 1. Clone this repo
