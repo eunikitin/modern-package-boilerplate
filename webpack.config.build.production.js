@@ -9,7 +9,7 @@ export default merge(
     baseConfig,
     {
         output: {
-            filename: "iterator.min.js",
+            filename: "index.min.js",
         },
 
         plugins: [new UglifyJsPlugin({
