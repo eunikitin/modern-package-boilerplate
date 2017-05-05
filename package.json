@@ -27,7 +27,7 @@
     "test": "mocha-webpack --webpack-config webpack.config.test.js \"test/runner.js\"",
     "test:watch": "mocha-webpack --webpack-config webpack.config.test.js \"test/runner.js\" --watch",
     "cover": "nyc --reporter=lcov --reporter=text npm run test",
-    "coveralls": "nyc --reporter=lcov --reporter=text && cat ./coverage/lcov.info | coveralls",
+    "coveralls": "nyc --reporter=lcov --reporter=text npm run test && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src test"
   },
   "nyc": {
