@@ -27,6 +27,19 @@ Run tests in watch mode
 #### `npm run cover`
 Cover your code (Work with ES6)
 
+### Lint
+This boilerplate uses
+[air-bnb code style conventions](https://github.com/airbnb/javascript#table-of-contents),
+however if you don't like it, you can disable it, by removing the following line in 
+`.eslintrc` config file:
+```js
+{
+  //...
+  
+  "extends": "airbnb"
+}
+```
+
 ### Webpack aliases
 If you are as tired as me to write '../../../' in the
 require statements, you can use
