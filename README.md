@@ -1,4 +1,6 @@
 # Boilerplate for creating npm packages with ES6 
+[![dependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate)
+[![devDependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/dev-status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate?type=dev)
 
 ## Features
 * Build with [webpack 2](https://webpack.js.org/) and [babel](https://babeljs.io/)
