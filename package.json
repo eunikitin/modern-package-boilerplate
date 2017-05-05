@@ -27,6 +27,7 @@
     "test": "mocha-webpack --webpack-config webpack.config.test.js \"test/runner.js\"",
     "test:watch": "mocha-webpack --webpack-config webpack.config.test.js \"test/runner.js\" --watch",
     "cover": "nyc --reporter=lcov --reporter=text npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint src test"
   },
   "nyc": {
@@ -45,6 +46,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
+    "coveralls": "^2.13.1",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
