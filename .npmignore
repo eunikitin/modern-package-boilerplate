@@ -19,8 +19,12 @@ yarn.lock
 builder
 src
 test
+.babelrc
+.eslintignore
+.eslintrc
+.travis.yml
 webpack.config.base.js
 webpack.config.build.base.js
-webpack.config.development.js
-webpack.config.production.js
+webpack.config.build.development.js
+webpack.config.build.production.js
 webpack.config.test.babel.js
