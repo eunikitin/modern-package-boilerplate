@@ -36,6 +36,8 @@ Sends coverage details to [coveralls.io](https://coveralls.io).
 Used in .travis.yml and should not be used manually.
 #### `npm run lint`
 Check your code for errors and code styles
+#### `npm run prepublish`
+Hook for npm, that executes when you publishing package in npm repository.
 
 ### Lint
 This boilerplate uses
