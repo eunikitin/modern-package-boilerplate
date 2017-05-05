@@ -6,6 +6,7 @@
 * Build with [webpack 2](https://webpack.js.org/) and [babel](https://babeljs.io/)
 * Test with [mocha](https://mochajs.org/), [chai](http://chaijs.com/) and [sinon](http://sinonjs.org/)
 * Cover with [istanbul](https://github.com/gotwarlost/istanbul)
+* Lint with [eslint](http://eslint.org/) ([air-bnb config](https://github.com/airbnb/javascript))
 
 ## Installation
 1. Clone this repo
