@@ -19,23 +19,32 @@
 
 ## Usage
 ### Commands
+
 #### `npm run clean`
 Delete all cache and output files
+
 #### `npm run dev`
 Build your library in development mode
+
 #### `npm run build`
 Build your library in production mode
+
 #### `npm run test`
 Run tests
+
 #### `npm run test:watch`
 Run tests in watch mode
+
 #### `npm run cover`
 Cover your code (Work with ES6)
+
 #### `npm run coveralls`
 Sends coverage details to [coveralls.io](https://coveralls.io).
 Used in .travis.yml and should not be used manually.
+
 #### `npm run lint`
 Check your code for errors and code styles
+
 #### `npm run prepublish`
 Hook for npm, that executes when you publishing package in npm repository.
 
