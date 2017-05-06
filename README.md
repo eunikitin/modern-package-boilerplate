@@ -12,8 +12,8 @@
 * CI with [travis-ci.org](https://travis-ci.org/)
 * Coverage info with [coveralls.io](https://coveralls.io)
 
-## Installation
-1. Clone this repo
+## Getting started
+1. [Clone this repo from github](https://github.com/eunikitin/npm-package-es6-boilerplate)
 2. Inside repo directory run `npm install && rm -r .git && git init`
 2. Update package.json with your information
 
