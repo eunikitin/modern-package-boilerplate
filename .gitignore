@@ -12,7 +12,6 @@ coverage
 
 # Cache
 .nyc_output
-yarn.lock
 .tmp
 
 # Release
