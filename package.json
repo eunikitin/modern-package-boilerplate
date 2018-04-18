@@ -1,7 +1,7 @@
 {
   "name": "npm-package-es6-boilerplate",
   "version": "1.0.8",
-  "description": "Boilerplate for creating npm packages with ES6. Features: webpack2, babel, mocha, chai, sinon, istanbul, eslint, CI with travis-ci.org, coverage reports with coveralls.io",
+  "description": "Boilerplate for creating npm packages with ES6. Deprecated in favour of new modern-package-boilerplate. Features: webpack2, babel, mocha, chai, sinon, istanbul, eslint, CI with travis-ci.org, coverage reports with coveralls.io",
   "keywords": [
     "npm-package",
     "package",
