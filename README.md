@@ -1,4 +1,5 @@
-# Boilerplate for creating npm packages with ES6 
+# Boilerplate for creating npm packages with ES6
+# [DEPRECATED in favour of ]
 [![Build Status](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate.svg?branch=master)](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/eunikitin/npm-package-es6-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/eunikitin/npm-package-es6-boilerplate?branch=master)
 [![dependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate)
