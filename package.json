@@ -22,10 +22,9 @@
     "test": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:cover": "cross-env NODE_ENV=test jest --coverage",
-    "cover": "nyc --reporter=lcov --reporter=text npm run test",
     "coveralls": "nyc --reporter=lcov --reporter=text npm run test && cat ./coverage/lcov.info | coveralls",
-    "lint": "eslint src test",
-    "prepublish": "npm run clean && npm run lint && npm run build"
+    "lint": "eslint src",
+    "prepublish": "npm run clean && npm run build"
   },
   "nyc": {
     "include": [
