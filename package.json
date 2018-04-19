@@ -1,7 +1,7 @@
 {
   "name": "modern-package-boilerplate",
-  "version": "1.0.10",
-  "description": "Boilerplate for creating modern npm packages. Features: webpack2, babel, mocha, chai, sinon, istanbul, eslint, CI with travis-ci.org, coverage reports with coveralls.io",
+  "version": "2.0.0",
+  "description": "Powerfull, flexible and easy-to-use boilerplate for creating npm packages. Features: rollup, babel, react (optional), flow, jest, enzyme, eslint. CI with travis-ci.org, coverage reports with coveralls.io, dependency tracking with renovateapp",
   "keywords": [],
   "license": "MIT",
   "author": "Eugene Nikitin",
