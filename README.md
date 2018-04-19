@@ -1,27 +1,27 @@
 <p align="center">
-   <img src="/internals/img/header.png" alt="Header">
+   <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/header.png" alt="Header">
 </p>
 <p align="center">
   Powerful, flexible and easy-to-use boilerplate for creating npm packages
 </p>
 <p align="center">
   <a href="https://babeljs.io/">
-    <img src="/internals/img/js.png" alt="Babel">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/js.png" alt="Babel">
   </a>
   <a href="https://rollupjs.org/">
-    <img src="/internals/img/rollup.png" alt="Rollup">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/rollup.png" alt="Rollup">
   </a>
   <a href="https://reactjs.org/">
-    <img src="/internals/img/react.png" alt="React">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/react.png" alt="React">
   </a>
   <a href="https://flow.org">
-    <img src="/internals/img/flow.png" alt="FlowJS">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/flow.png" alt="FlowJS">
   </a>
   <a href="https://facebook.github.io/jest/">
-    <img src="/internals/img/jest.png" alt="Jest">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/jest.png" alt="Jest">
   </a>
   <a href="https://eslint.org/">
-    <img src="/internals/img/eslint.png" alt="ESLint">
+    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/eslint.png" alt="ESLint">
   </a>
 </p>
 
