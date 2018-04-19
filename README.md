@@ -1,4 +1,7 @@
 <p align="center">
+   <img src="/internals/img/header.png" alt="Header">
+</p>
+<p align="center">
   Modern, flexible and easy-to-use boilerplate for creating npm packages
 </p>
 <p align="center">
