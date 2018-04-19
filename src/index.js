@@ -1,4 +1,7 @@
+import       thankYou from './examples/modern';
 
-export default function add(a, b) {
-  return a + b;
-}
+export const modern = thankYou;
+export       jsx      from './examples/jsx';
+export       flow     from './examples/flow.js';
+
+console.log(thankYou());
