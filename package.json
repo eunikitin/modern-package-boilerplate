@@ -19,6 +19,7 @@
     "clean": "rimraf ./.nyc_output ./.tmp ./coverage ./lib",
     "dev": "cross-env NODE_ENV=development rollup -c -o lib/index.js",
     "build": "cross-env NODE_ENV=production rollup -c -o lib/index.js",
+    "test": "cross-env NODE_ENV=test jest --config jest.json",
     "cover": "nyc --reporter=lcov --reporter=text npm run test",
     "coveralls": "nyc --reporter=lcov --reporter=text npm run test && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src test",
