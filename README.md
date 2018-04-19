@@ -2,7 +2,7 @@
    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/header.png" alt="Header">
 </p>
 <p align="center">
-  Powerful, flexible and easy-to-use boilerplate for creating npm packages
+  Powerful, flexible and easy-to-use boilerplate for creating modern npm packages
 </p>
 <p align="center">
   <a href="https://babeljs.io/">
