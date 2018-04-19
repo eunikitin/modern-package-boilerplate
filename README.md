@@ -1,5 +1,5 @@
 <p align="center">
-  Modern and easy to use boilerplate for creating npm packages.
+  Modern, flexible and easy-to-use boilerplate for creating npm packages.
 </p>
 <p align="center">
   <a href="https://babeljs.io/">
