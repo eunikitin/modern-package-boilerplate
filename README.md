@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/eunikitin/modern-package-boilerplate.svg?branch=master)](https://travis-ci.org/eunikitin/modern-package-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/eunikitin/modern-package-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/eunikitin/modern-package-boilerplate?branch=master)
-[![dependencies Status](https://david-dm.org/eunikitin/modern-package-boilerplate/status.svg)](https://david-dm.org/eunikitin/modern-package-boilerplate)
-[![devDependencies Status](https://david-dm.org/eunikitin/modern-package-boilerplate/dev-status.svg)](https://david-dm.org/eunikitin/modern-package-boilerplate?type=dev)
-[![peerDependencies Status](https://david-dm.org/eunikitin/modern-package-boilerplate/peer-status.svg)](https://david-dm.org/eunikitin/modern-package-boilerplate?type=peer)
+[![Travis](https://img.shields.io/travis/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://github.com/eunikitin/modern-package-boilerplate)
+[![Coveralls github](https://img.shields.io/coveralls/github/eunikitin/modern-package-boilerplate/master.svg?style=flat-square)](https://github.com/eunikitin/modern-package-boilerplate)
+[![dependencies Status](https://img.shields.io/david/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
+[![devDependencies Status](https://img.shields.io/david/dev/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
+[![peerDependencies Status](https://img.shields.io/david/peer/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
 
 ## Features
 * Build with [Rollup bundler](https://github.com/rollup/rollup) and [babel](https://babeljs.io/)
