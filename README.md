@@ -1,8 +1,44 @@
-[![Travis](https://img.shields.io/travis/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://github.com/eunikitin/modern-package-boilerplate)
-[![Coveralls github](https://img.shields.io/coveralls/github/eunikitin/modern-package-boilerplate/master.svg?style=flat-square)](https://github.com/eunikitin/modern-package-boilerplate)
-[![dependencies Status](https://img.shields.io/david/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
-[![devDependencies Status](https://img.shields.io/david/dev/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
-[![peerDependencies Status](https://img.shields.io/david/peer/eunikitin/modern-package-boilerplate.svg?style=flat-square)](https://david-dm.org/eunikitin/modern-package-boilerplate)
+<p align="center">
+  Modern and easy to use boilerplate for creating npm packages.
+</p>
+<p align="center">
+  <a href="https://babeljs.io/">
+    <img src="/internals/img/js.png" alt="Babel">
+  </a>
+  <a href="https://rollupjs.org/">
+    <img src="/internals/img/rollup.png" alt="Rollup">
+  </a>
+  <a href="https://reactjs.org/">
+    <img src="/internals/img/react.png" alt="React">
+  </a>
+  <a href="https://flow.org">
+    <img src="/internals/img/flow.png" alt="FlowJS">
+  </a>
+  <a href="https://facebook.github.io/jest/">
+    <img src="/internals/img/jest.png" alt="Jest">
+  </a>
+  <a href="https://eslint.org/">
+    <img src="/internals/img/eslint.png" alt="ESLint">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://travis-ci.org/eunikitin/modern-package-boilerplate">
+    <img src="https://travis-ci.org/eunikitin/modern-package-boilerplate.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://coveralls.io/github/eunikitin/modern-package-boilerplate?branch=master">
+    <img src="https://coveralls.io/repos/github/eunikitin/modern-package-boilerplate/badge.svg?branch=master" alt="Coverage Status">
+  </a>
+  <a href="https://david-dm.org/eunikitin/modern-package-boilerplate">
+    <img src="https://david-dm.org/eunikitin/modern-package-boilerplate/status.svg" alt="dependencies Status">
+  </a>
+  <a href="https://david-dm.org/eunikitin/modern-package-boilerplate?type=dev">
+    <img src="https://david-dm.org/eunikitin/modern-package-boilerplate/dev-status.svg" alt="devDependencies Status">
+  </a>
+  <a href="https://david-dm.org/eunikitin/modern-package-boilerplate?type=peer">
+    <img src="https://david-dm.org/eunikitin/modern-package-boilerplate/peer-status.svg" alt="peerDependencies Status">
+  </a>
+</p>
 
 ## Features
 * Build with [Rollup bundler](https://github.com/rollup/rollup) and [babel](https://babeljs.io/)
