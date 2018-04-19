@@ -1,6 +1,6 @@
 {
   "name": "modern-package-boilerplate",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Boilerplate for creating modern npm packages. Features: webpack2, babel, mocha, chai, sinon, istanbul, eslint, CI with travis-ci.org, coverage reports with coveralls.io",
   "keywords": [],
   "license": "MIT",
