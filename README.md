@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate.svg?branch=master)](https://travis-ci.org/eunikitin/npm-package-es6-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/eunikitin/npm-package-es6-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/eunikitin/npm-package-es6-boilerplate?branch=master)
-[![dependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate)
-[![devDependencies Status](https://david-dm.org/eunikitin/npm-package-es6-boilerplate/dev-status.svg)](https://david-dm.org/eunikitin/npm-package-es6-boilerplate?type=dev)
+[![Build Status](https://travis-ci.org/eunikitin/modern-package-boilerplate.svg?branch=master)](https://travis-ci.org/eunikitin/modern-package-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/eunikitin/modern-package-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/eunikitin/modern-package-boilerplate?branch=master)
+[![dependencies Status](https://david-dm.org/eunikitin/modern-package-boilerplate/status.svg)](https://david-dm.org/eunikitin/modern-package-boilerplate)
+[![devDependencies Status](https://david-dm.org/eunikitin/modern-package-boilerplate/dev-status.svg)](https://david-dm.org/eunikitin/modern-package-boilerplate?type=dev)
 
 ## Features
 * Build with [webpack 2](https://webpack.js.org/) and [babel](https://babeljs.io/)
@@ -12,7 +12,7 @@
 * Coverage info with [coveralls.io](https://coveralls.io)
 
 ## Getting started
-1. [Clone this repo from github](https://github.com/eunikitin/npm-package-es6-boilerplate)
+1. [Clone this repo from github](https://github.com/eunikitin/modern-package-boilerplate)
 2. Inside repo directory run `npm install && rm -r .git && git init`
 2. Update package.json with your information
 
