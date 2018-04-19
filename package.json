@@ -59,7 +59,7 @@
     "eslint-config-airbnb": "16.1.0",
 >>>>>>> Update dependency eslint-config-airbnb to v16
     "eslint-plugin-import": "2.11.0",
-    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.7.0",
     "fs-file-tree": "1.0.6",
     "jest": "22.4.3",
