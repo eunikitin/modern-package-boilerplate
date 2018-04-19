@@ -2,7 +2,7 @@
    <img src="/internals/img/header.png" alt="Header">
 </p>
 <p align="center">
-  Modern, flexible and easy-to-use boilerplate for creating npm packages
+  Powerful, flexible and easy-to-use boilerplate for creating npm packages
 </p>
 <p align="center">
   <a href="https://babeljs.io/">
