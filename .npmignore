@@ -1,8 +1,10 @@
-# IDE specific
+# IDE & OS specific
+.DS_Store
 .idea
 
 # Logs
-npm-debug.log*
+logs
+*.log
 
 # Dependencies
 node_modules
@@ -10,9 +12,8 @@ node_modules
 # Coverage
 coverage
 
-# Cache
-.nyc_output
-.tmp
+# Types
+flow-typed/*
 
 # Sources, tests and builder files
 builder
