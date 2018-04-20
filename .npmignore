@@ -18,12 +18,11 @@ coverage
 builder
 src
 test
+internals
 .babelrc
 .eslintignore
 .eslintrc
 .travis.yml
-webpack.config.base.js
-webpack.config.build.base.js
-webpack.config.build.development.js
-webpack.config.build.production.js
-webpack.config.test.babel.js
+jest.json
+renovate.json
+rollup.config.js
