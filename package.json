@@ -26,7 +26,7 @@
     "flow": "flow",
     "flow-typed": "npm run clean && flow-typed install --overwrite || true",
     "lint": "eslint src",
-    "prepublish": "npm run clean && npm run test && npm run lint && npm run build"
+    "prepublish": "npm run clean && npm run test && npm run flow && npm run lint && npm run build"
   },
   "peerDependencies": {
     "react": "^15 || ^16",
