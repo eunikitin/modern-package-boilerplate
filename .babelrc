@@ -12,5 +12,11 @@
         "env"
       ]
     }
-  }
+  },
+
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"]
+    }]
+  ]
 }
