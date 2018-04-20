@@ -51,7 +51,7 @@
 * Write modern JavaScript with latest features of [Babel](https://babeljs.io/)
 * Create your own distributable [React](https://reactjs.org/) components (optional)
 * Check your types with [Flow](https://flow.org/) (optional)
-* Test and cover with [Jest](https://facebook.github.io/jest/) and [enzyme](http://airbnb.io/enzyme/)
+* Test and cover with [Jest](https://facebook.github.io/jest/) and [Enzyme](http://airbnb.io/enzyme/)
 * Lint with [ESLint](http://eslint.org/) ([air-bnb config](https://github.com/airbnb/javascript))
 
 
