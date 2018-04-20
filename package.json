@@ -51,13 +51,8 @@
     "cross-env": "5.1.4",
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
-<<<<<<< HEAD
     "eslint": "4.19.1",
-    "eslint-config-airbnb": "15.1.0",
-=======
-    "eslint": "3.19.0",
     "eslint-config-airbnb": "16.1.0",
->>>>>>> Update dependency eslint-config-airbnb to v16
     "eslint-plugin-import": "2.11.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.7.0",
