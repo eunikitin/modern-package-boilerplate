@@ -16,7 +16,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf ./.nyc_output ./.tmp ./coverage ./lib",
+    "clean": "rimraf ./coverage ./lib",
     "dev": "cross-env NODE_ENV=development rollup -c -o lib/index.js",
     "build": "cross-env NODE_ENV=production rollup -c -o lib/index.js",
     "test": "cross-env NODE_ENV=test jest",
