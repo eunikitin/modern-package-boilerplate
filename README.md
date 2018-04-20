@@ -44,7 +44,7 @@
 </p>
 
 ## Features
-* Bundle your app with [Rollup](https://github.com/rollup/rollup)
+* Bundle your library with [Rollup](https://github.com/rollup/rollup)
 * Write modern JavaScript with latest features of [babel](https://babeljs.io/)
 * Create your own distributable [React](https://reactjs.org/) components (optional)
 * Check your types with [Flow](https://flow.org/) (optional)
