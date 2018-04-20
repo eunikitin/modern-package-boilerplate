@@ -26,13 +26,6 @@
     "lint": "echo lint is disabled",
     "prepublish": "npm run clean && npm run build"
   },
-  "nyc": {
-    "include": [
-      "src/**/*.js"
-    ],
-    "instrument": false,
-    "sourceMap": false
-  },
   "peerDependencies": {
     "react": "^15 || ^16",
     "react-dom": "^15 || ^16"
