@@ -1,9 +1,11 @@
 <p align="center">
    <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/header.png" alt="Header">
 </p>
+
 <p align="center">
   Powerful, flexible and easy-to-use boilerplate for creating modern npm packages
 </p>
+
 <p align="center">
   <a href="https://babeljs.io/">
     <img src="https://raw.githubusercontent.com/eunikitin/modern-package-boilerplate/master/internals/img/js.png" alt="Babel">
@@ -43,18 +45,23 @@
   </a>
 </p>
 
-## Features
+# Features
+## Key features
 * Bundle your library with [Rollup](https://github.com/rollup/rollup)
 * Write modern JavaScript with latest features of [Babel](https://babeljs.io/)
 * Create your own distributable [React](https://reactjs.org/) components (optional)
 * Check your types with [Flow](https://flow.org/) (optional)
-* Test and cover with [Jest](https://mochajs.org/) and [enzyme](http://chaijs.com/)
+* Test and cover with [Jest](https://facebook.github.io/jest/) and [enzyme](http://chaijs.com/)
 * Lint with [ESLint](http://eslint.org/) ([air-bnb config](https://github.com/airbnb/javascript))
+
+
+## Minor features
+* Path aliases with babel [module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) plugin
 * CI with [travis-ci.org](https://travis-ci.org/)
 * Coverage info with [coveralls.io](https://coveralls.io)
 * Track and update your dependencies with [renovateapp.com](https://renovateapp.com/)
 
-## Getting started
+# Getting started
 1. [Clone this repo from github](https://github.com/eunikitin/modern-package-boilerplate)
 2. Inside the repo directory run `npm install && rm -r .git && git init`
 2. Update package.json with your information
