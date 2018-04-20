@@ -14,7 +14,7 @@
     "mail": "eu.nikitin@gmail.com",
     "url": "http://github.com/eunikitin/modern-package-boilerplate/issues"
   },
-  "main": "lib/index.min.js",
+  "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf ./.nyc_output ./.tmp ./coverage ./lib",
     "dev": "cross-env NODE_ENV=development rollup -c -o lib/index.js",
