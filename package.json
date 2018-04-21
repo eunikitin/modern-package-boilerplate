@@ -1,6 +1,6 @@
 {
   "name": "modern-package-boilerplate",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Powerfull, flexible and easy-to-use boilerplate for creating modern npm packages. Features: rollup, babel, react (optional), flow (optional), jest, enzyme, eslint, travis-ci, coveralls, renovate",
   "keywords": [
     "npm-package",
