@@ -32,9 +32,10 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf ./coverage ./lib",
-    "dev": "cross-env NODE_ENV=development rollup -c -o lib/index.js",
-    "build": "cross-env NODE_ENV=production rollup -c -o lib/index.js",
+    "gulp": "cross-env NODE_ENV=test gulp --gulpfile ./internals/configs/gulpfile.babel.js --require babel-register --cwd ./",
+    "clean": "npm run gulp clean",
+    "dev": "npm run gulp build:dev",
+    "build": "npm run gulp build:prod",
     "test": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:cover": "cross-env NODE_ENV=test jest --coverage",
