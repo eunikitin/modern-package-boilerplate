@@ -7,6 +7,7 @@ import nodeResolve  from 'rollup-plugin-node-resolve';
 import babel        from 'rollup-plugin-babel';
 import replace      from 'rollup-plugin-replace';
 import commonjs     from 'rollup-plugin-commonjs';
+import uglify       from 'rollup-plugin-uglify';
 
 // Configs
 import cBabelrc     from './.babelrc';
@@ -48,6 +49,24 @@ const development = merge(
   },
 );
 
+const production = merge(
+  base,
+  {
+    plugins: [
+      uglify({
+        compress: {
+          pure_getters: true,
+          unsafe: true,
+          unsafe_comps: true,
+          warnings: false,
+        },
+      }),
+    ],
+  },
+);
+
+
 export default {
   development,
+  production,
 };
