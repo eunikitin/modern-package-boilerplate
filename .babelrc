@@ -1,18 +1,10 @@
 {
   "presets": [
-    [ "env", { "modules": false } ],
+    [ "env", { "modules": "umd" } ],
     "stage-0",
     "react",
     "flow"
   ],
-
-  "env": {
-    "test": {
-      "presets": [
-        "env"
-      ]
-    }
-  },
 
   "plugins": [
     ["module-resolver", {
