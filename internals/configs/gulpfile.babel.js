@@ -5,6 +5,9 @@ import rimraf      from 'rimraf';
 import path        from 'path';
 import fs          from 'fs';
 
+// Gulp plugins
+import jest        from 'gulp-jest';
+
 // Configs
 import cRollup     from './rollup.config';
 import cJest       from './jest';
