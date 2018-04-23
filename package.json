@@ -49,7 +49,10 @@
     "react": "^15 || ^16",
     "react-dom": "^15 || ^16"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-jest": "^4.0.2",
+    "jest-cli": "^22.4.3"
+  },
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.3",
