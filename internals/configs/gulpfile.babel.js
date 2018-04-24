@@ -7,6 +7,7 @@ import fs          from 'fs';
 
 // Gulp plugins
 import jest        from 'gulp-jest';
+import run         from 'gulp-run';
 
 // Configs
 import cRollup     from './rollup.config';
@@ -22,3 +23,5 @@ gulp.task('build:prod', () => rollup.rollup(cRollup.production).then(bundle => (
 gulp.task('test', () => gulp.src('test').pipe(jest(cJest.test)));
 
 gulp.task('cover', () => gulp.src('test').pipe(jest(cJest.coverage)));
+
+gulp.task('flow', () => run('flow --color always', { verbosity: 3 }).exec());
