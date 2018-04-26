@@ -41,7 +41,7 @@
     "test:cover": "npm run gulp cover",
     "coveralls": "npm run test:cover && cat ./coverage/lcov.info | coveralls",
     "flow": "npm run gulp flow",
-    "flow-typed": "npm run clean && flow-typed install --overwrite || true",
+    "flow-typed": "npm run gulp flow-typed",
     "lint": "npm run gulp lint",
     "prepublish": "npm run clean && npm run test && npm run flow && npm run lint && npm run build"
   },
