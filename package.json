@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "gulp-jest": "^4.0.2",
-    "jest-cli": "^22.4.3"
+    "jest-cli": "^23.0.0"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -78,7 +78,7 @@
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-eslint": "^4.0.2",
     "gulp-run": "^1.7.1",
-    "jest": "22.4.3",
+    "jest": "23.4.1",
     "merge-deep": "^3.0.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
