@@ -76,7 +76,7 @@
     "flow-typed": "2.4.0",
     "fs-file-tree": "1.0.6",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-eslint": "4.0.2",
+    "gulp-eslint": "5.0.0",
     "gulp-run": "1.7.1",
     "jest": "22.4.3",
     "merge-deep": "3.0.1",
