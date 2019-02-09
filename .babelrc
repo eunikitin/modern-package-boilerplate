@@ -1,9 +1,8 @@
 {
   "presets": [
-    [ "env", { "modules": "umd" } ],
-    "stage-0",
-    "react",
-    "flow"
+    [ "@babel/preset-env", { "modules": "umd" } ],
+    "@babel/preset-react",
+    "@babel/preset-flow"
   ],
 
   "plugins": [

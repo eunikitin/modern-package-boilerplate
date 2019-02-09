@@ -1,9 +1,8 @@
 export default {
   "presets": [
-    [ "env", { "modules": false } ],
-    "stage-0",
-    "react",
-    "flow"
+    [ "@babel/preset-env", { "modules": false } ],
+    "@babel/preset-react",
+    "@babel/preset-flow"
   ],
   "plugins": [
     ["module-resolver", {
