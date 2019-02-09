@@ -1,3 +1,4 @@
+/* eslint-disable */
 import flow from '../../src/examples/flow';
 
 

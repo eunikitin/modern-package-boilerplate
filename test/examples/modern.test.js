@@ -1,4 +1,6 @@
+/* eslint-disable */
 import modern from '../../src/examples/modern';
+
 
 const message =
   '\n' +
