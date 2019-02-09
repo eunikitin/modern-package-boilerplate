@@ -1,5 +1,5 @@
 // Dependencies
-import  gulp       from 'gulp';
+import gulp        from 'gulp';
 import * as rollup from 'rollup';
 import rimraf      from 'rimraf';
 import path        from 'path';
@@ -31,4 +31,3 @@ gulp.task('flow', () => run('flow --color always', { verbosity: 3 }).exec());
 gulp.task('flow-typed', () => run('flow-typed install --overwrite', { verbosity: 3 }).exec());
 
 gulp.task('lint', () => gulp.src('src/**/*.js').pipe(eslint(cESLint)).pipe(eslint.format()).pipe(eslint.failAfterError()));
-

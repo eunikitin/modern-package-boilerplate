@@ -7,10 +7,10 @@ import nodeResolve  from 'rollup-plugin-node-resolve';
 import babel        from 'rollup-plugin-babel';
 import replace      from 'rollup-plugin-replace';
 import commonjs     from 'rollup-plugin-commonjs';
-import uglify       from 'rollup-plugin-uglify';
+import { uglify }   from 'rollup-plugin-uglify';
 
 // Configs
-import cBabelrc     from './.babelrc';
+import cBabelrc     from './babel.library.config';
 
 
 const env = process.env.NODE_ENV;
@@ -24,7 +24,7 @@ const base = {
   output: {
     file: 'lib/index.js',
     format: 'umd',
-    name: 'npmPackageES6Boilerplate',
+    name: 'modernPackageBoilerplate',
   },
 
   plugins: [

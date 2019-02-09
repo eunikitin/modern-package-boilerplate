@@ -32,7 +32,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "gulp": "gulp --gulpfile ./internals/configs/gulpfile.babel.js --require babel-register --cwd ./",
+    "gulp": "gulp --gulpfile ./builder/configs/gulpfile.babel.js --require babel-register --cwd ./",
     "clean": "npm run gulp clean",
     "dev": "npm run gulp build:dev",
     "build": "npm run gulp build:prod",
