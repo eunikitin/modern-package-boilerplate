@@ -1,12 +1,14 @@
+
+
 export default {
-  "presets": [
-    [ "@babel/preset-env", { "modules": false } ],
-    "@babel/preset-react",
-    "@babel/preset-flow"
+  presets: [
+    ['@babel/preset-env', { modules: false }],
+    '@babel/preset-react',
+    '@babel/preset-flow',
   ],
-  "plugins": [
-    ["module-resolver", {
-      "root": ["./src"]
-    }]
-  ]
-}
+  plugins: [
+    ['module-resolver', {
+      root: ['./src'],
+    }],
+  ],
+};

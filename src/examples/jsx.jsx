@@ -1,3 +1,5 @@
 import * as React from 'react';
 
-export default (props) => (<div>You know nothing, {props.name}</div>);
+export default ({ name }) => (
+  <div>You know nothing, { name }</div>
+);
