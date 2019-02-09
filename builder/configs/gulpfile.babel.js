@@ -26,7 +26,7 @@ gulp.task('test', () => gulp.src('test').pipe(jest(cJest.test)));
 
 gulp.task('cover', () => gulp.src('test').pipe(jest(cJest.coverage)));
 
-gulp.task('flow', () => run('flow --color always', { verbosity: 3 }).exec());
+gulp.task('flow', () => run('flow check --color always', { verbosity: 3 }).exec());
 
 gulp.task('flow-typed', () => run('flow-typed install --overwrite', { verbosity: 3 }).exec());
 
