@@ -49,10 +49,6 @@
     "react": "^15 || ^16",
     "react-dom": "^15 || ^16"
   },
-  "dependencies": {
-    "gulp-jest": "^4.0.2",
-    "jest-cli": "^24.1.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
@@ -76,8 +72,10 @@
     "fs-file-tree": "1.0.7",
     "gulp": "4.0.0",
     "gulp-eslint": "5.0.0",
+    "gulp-jest": "^4.0.2",
     "gulp-run": "1.7.1",
     "jest": "^24.1.0",
+    "jest-cli": "^24.1.0",
     "merge-deep": "3.0.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
