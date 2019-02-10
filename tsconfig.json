@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "baseUrl": "./",
+    "paths": {
+      "root/*": ["./*"],
+      "src/*": ["./package/src/*"],
+      "package/*": ["./package/*"],
+      "builder/*": ["./internal/builder/*"]
+    },
+    "lib": ["es2017", "dom"],
+    "typeRoots": [
+      "package/src/types",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "package",
+    "internal"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
