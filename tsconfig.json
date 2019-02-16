@@ -28,7 +28,7 @@
   },
   "include": [
     "package",
-    "internal"
+    "internals"
   ],
   "exclude": [
     "node_modules"
