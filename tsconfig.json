@@ -18,7 +18,7 @@
       "root/*": ["./*"],
       "src/*": ["./package/src/*"],
       "package/*": ["./package/*"],
-      "builder/*": ["./internal/builder/*"]
+      "builder/*": ["./internals/builder/*"]
     },
     "lib": ["es2017", "dom"],
     "typeRoots": [
