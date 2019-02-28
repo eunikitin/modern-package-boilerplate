@@ -1,17 +1,8 @@
 {
+  "extends": "../../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": true,
-    "sourceMap": true,
-    "noImplicitAny": false,
     "module": "commonjs",
     "target": "es6",
-    "jsx": "react",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "resolveJsonModule": true,
-    "removeComments": false,
     "baseUrl": "../../",
     "paths": {
       "root/*": ["../*"],
@@ -19,7 +10,6 @@
       "package/*": ["../package/*"],
       "builder/*":  ["builder/*"]
     },
-    "lib": ["es2017", "dom"],
     "typeRoots": [
       "../types",
       "../../../node_modules/@types"
