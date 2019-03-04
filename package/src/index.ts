@@ -1,5 +1,5 @@
 /* eslint-disable */
-import       thankYou from 'examples/modern';
+import thankYou from 'src/thankYou';
 
 
 export const modern = thankYou;

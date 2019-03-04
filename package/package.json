@@ -1,0 +1,10 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "^15 || ^16",
+    "react-dom": "^15 || ^16"
+  }
+}
