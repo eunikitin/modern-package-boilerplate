@@ -6,7 +6,6 @@ import * as merge       from 'deepmerge';
 // Rollup plugins
 import * as progress    from 'rollup-plugin-progress';
 import * as nodeResolve from 'rollup-plugin-node-resolve';
-import * as babel       from 'rollup-plugin-babel';
 import * as typescript  from 'rollup-plugin-typescript';
 import * as replace     from 'rollup-plugin-replace';
 import * as commonjs    from 'rollup-plugin-commonjs';
@@ -14,7 +13,6 @@ import { uglify }       from 'rollup-plugin-uglify';
 
 // Configs
 import { PresetSchema } from 'root/default.env';
-import cBabelrc         from 'root/babelrc';
 
 // Local
 import * as paths       from 'builder/core/paths';
@@ -41,10 +39,6 @@ export default (environment: PresetSchema): rollup.RollupOptions => {
         'process.env.NODE_ENV': JSON.stringify(env),
       }),
       typescript(),
-      babel({
-        babelrc: false,
-        ...cBabelrc,
-      }),
       commonjs(),
     ],
   };
