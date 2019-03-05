@@ -36,10 +36,10 @@ const cliFormat = winston.format.combine(
   cliTransform,
 );
 
-const jsonFormat = winston.format.combine(
-  winston.format.timestamp(),
-);
-
+// const jsonFormat = winston.format.combine(
+//   winston.format.timestamp(),
+// );
+//
 const logger = winston.createLogger({
   level:  'debug',
   levels: config.levels,
@@ -47,10 +47,10 @@ const logger = winston.createLogger({
     new (winston.transports.Console)({
       format: cliFormat,
     }),
-    new (winston.transports.File)({
-      format: jsonFormat,
-      filename: 'somefile.json',
-    }),
+    // new (winston.transports.File)({
+    //   format: jsonFormat,
+    //   filename: 'somefile.json',
+    // }),
   ],
 });
 
