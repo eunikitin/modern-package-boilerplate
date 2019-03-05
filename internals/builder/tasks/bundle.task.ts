@@ -59,7 +59,7 @@ const Task: types.Task = {
   cli: ({ runner, cli }) => (
     cli.command(
       'bundle',
-      'bundle',
+      'Build project bundle',
       Object.assign({},
         params.environment.build(),
         params.environment.exec(),
