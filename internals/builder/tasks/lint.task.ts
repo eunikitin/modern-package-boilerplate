@@ -34,7 +34,7 @@ const Task: types.Task = {
   cli: ({ runner, cli }) => (
     cli.command(
       'lint',
-      'lint',
+      'Lint project',
       // Object.assign({},
       //   params.environment.build(),
       //   params.environment.exec(),
