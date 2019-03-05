@@ -23,7 +23,7 @@ const Task: types.Task = {
   cli: ({ runner, cli }) => (
     cli.command(
       'test',
-      'test',
+      'Run tests',
       () => {
         runner.run('test');
       },
