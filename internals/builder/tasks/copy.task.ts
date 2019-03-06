@@ -31,14 +31,14 @@ const copy = () => async function copy() {
     );
   }
 
-  if (readme) {
+  if (await fs.exists(readme)) {
     await fs.copyFile(
       readme,
       path.resolve(paths.buildDir(), 'README.md'),
     );
   }
 
-  if (license) {
+  if (await fs.exists(license)) {
     await fs.copyFile(
       license,
       path.resolve(paths.buildDir(), 'LICENSE'),
