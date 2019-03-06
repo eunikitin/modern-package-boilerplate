@@ -16,6 +16,7 @@ const copy = () => async function copy() {
   const packageLockSrc = path.resolve(paths.packageDir(), 'package-lock.json');
   const readme         = path.resolve(paths.rootDir(), 'README.md');
   const license        = path.resolve(paths.rootDir(), 'LICENSE');
+  const npmignore      = path.resolve(paths.packageDir(), '.npmignore');
 
   if (await fs.exists(packageSrc)) {
     await fs.copyFile(
@@ -42,6 +43,13 @@ const copy = () => async function copy() {
     await fs.copyFile(
       license,
       path.resolve(paths.buildDir(), 'LICENSE'),
+    );
+  }
+
+  if (await fs.exists(npmignore)) {
+    await fs.copyFile(
+      license,
+      path.resolve(paths.buildDir(), '.npmignore'),
     );
   }
 };
