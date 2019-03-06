@@ -1,8 +1,7 @@
 
 
-export type Env = 'production' | 'development';
-
 export type Target = 'node' | 'web';
+export type Env    = 'production' | 'development';
 
 export interface PresetSchema {
   target?: Target;
