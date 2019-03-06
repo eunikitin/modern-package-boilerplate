@@ -12,22 +12,22 @@ import * as fs       from 'builder/lib/fs';
 const copy = () => async function copy() {
   await fs.makeDir(path.resolve(paths.rootDir(), 'build'));
 
-  const packageSrc     = path.resolve(paths.packageDir(), 'package.json');
-  const packageLockSrc = path.resolve(paths.packageDir(), 'package-lock.json');
-  const readme         = path.resolve(paths.rootDir(), 'README.md');
-  const license        = path.resolve(paths.rootDir(), 'LICENSE');
-  const npmignore      = path.resolve(paths.packageDir(), '.npmignore');
+  const packageJson = path.resolve(paths.packageDir(), 'package.json');
+  const packageLock = path.resolve(paths.packageDir(), 'package-lock.json');
+  const readme      = path.resolve(paths.rootDir(), 'README.md');
+  const license     = path.resolve(paths.rootDir(), 'LICENSE');
+  const npmignore   = path.resolve(paths.packageDir(), '.npmignore');
 
-  if (await fs.exists(packageSrc)) {
+  if (await fs.exists(packageJson)) {
     await fs.copyFile(
-      path.resolve(paths.rootDir(), 'README.md'),
+      packageJson,
       path.resolve(paths.buildDir(), 'package.json'),
     );
   }
 
-  if (await fs.exists(packageLockSrc)) {
+  if (await fs.exists(packageLock)) {
     await fs.copyFile(
-      packageLockSrc,
+      packageLock,
       path.resolve(paths.buildDir(), 'package-lock.json'),
     );
   }
@@ -48,7 +48,7 @@ const copy = () => async function copy() {
 
   if (await fs.exists(npmignore)) {
     await fs.copyFile(
-      license,
+      npmignore,
       path.resolve(paths.buildDir(), '.npmignore'),
     );
   }
