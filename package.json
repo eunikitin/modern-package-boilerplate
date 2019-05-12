@@ -72,7 +72,7 @@
     "flow-bin": "^0.92.1",
     "flow-typed": "2.5.1",
     "fs-file-tree": "1.0.7",
-    "gulp": "4.0.0",
+    "gulp": "4.0.2",
     "gulp-eslint": "5.0.0",
     "gulp-jest": "^4.0.2",
     "gulp-run": "1.7.1",
