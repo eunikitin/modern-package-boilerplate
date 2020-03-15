@@ -85,7 +85,7 @@
     "recursive-readdir": "^2.2.2",
     "rimraf": "2.6.3",
     "rollup": "1.1.2",
-    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "9.2.0",
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-progress": "^1.0.0",
