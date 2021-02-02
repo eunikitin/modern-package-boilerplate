@@ -78,7 +78,7 @@
     "gulp-run": "1.7.1",
     "jest": "^24.1.0",
     "jest-cli": "^24.1.0",
-    "merge-deep": "3.0.2",
+    "merge-deep": "3.0.3",
     "node-cmd": "^3.0.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
