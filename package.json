@@ -41,8 +41,8 @@
     "lint": "npm run task lint"
   },
   "peerDependencies": {
-    "react": "^15 || ^16",
-    "react-dom": "^15 || ^16"
+    "react": "^15 || ^16 || ^18.0.0",
+    "react-dom": "^15 || ^16 || ^18.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -80,8 +80,8 @@
     "jest-cli": "^24.1.0",
     "merge-deep": "3.0.2",
     "node-cmd": "^3.0.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "recursive-readdir": "^2.2.2",
     "rimraf": "2.6.3",
     "rollup": "1.1.2",
