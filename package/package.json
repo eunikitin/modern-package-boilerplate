@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "peerDependencies": {
-    "react": "^15 || ^16",
-    "react-dom": "^15 || ^16"
+    "react": "^15 || ^16 || ^18.0.0",
+    "react-dom": "^15 || ^16 || ^18.0.0"
   }
 }
