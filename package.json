@@ -69,7 +69,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "7.12.4",
-    "flow-bin": "^0.92.1",
+    "flow-bin": "^0.250.0",
     "flow-typed": "2.5.1",
     "fs-file-tree": "1.0.7",
     "gulp": "4.0.0",
